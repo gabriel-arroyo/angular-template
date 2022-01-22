@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AppCustomeLayoutComponent } from './app-custome-layout.component';
+import { CustomLayoutComponent } from './custom-layout.component';
 
-describe('AppCustomeLayoutComponent', () => {
-  let component: AppCustomeLayoutComponent;
-  let fixture: ComponentFixture<AppCustomeLayoutComponent>;
+describe('CustomLayoutComponent', () => {
+  let component: CustomLayoutComponent;
+  let fixture: ComponentFixture<CustomLayoutComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AppCustomeLayoutComponent ]
+      declarations: [ CustomLayoutComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AppCustomeLayoutComponent);
+    fixture = TestBed.createComponent(CustomLayoutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
