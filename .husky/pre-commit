@@ -42,4 +42,4 @@ npm run build ||
 )
 
 # If it builds we can commit
-echo '✅😄🙌 Everithing looks OK. Commiting work'
+echo '✅👍 Everithing looks OK. Commiting work'
