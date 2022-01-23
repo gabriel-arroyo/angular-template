@@ -7,7 +7,13 @@
 		"build": "ng build",
 		"watch": "ng build --watch --configuration development",
 		"test": "ng test",
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+		"lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+		"prepare": "husky install",
+		"check-types": "tsc --pretty --noEmit",
+		"check-format": "prettier --check .",
+		"check-lint": "eslint . --ext ts --ext tsx --ext js",
+		"format": "prettier --write .",
+		"test-all": "npm run check-format && npm run check-lint && npm run check-types && npm run build"
 	},
 	"private": true,
 	"dependencies": {
@@ -43,6 +49,7 @@
 		"karma-jasmine-html-reporter": "~1.7.0",
 		"prettier": "2.5.1",
 		"prettier-eslint": "^13.0.0",
-		"typescript": "~4.4.3"
+		"typescript": "~4.4.3",
+		"husky": "^7.0.0"
 	}
 }
