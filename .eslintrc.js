@@ -3,11 +3,7 @@ module.exports = {
 		browser: true,
 		es2021: true,
 	},
-	extends: [
-		'google',
-		'prettier/@typescript-eslint',
-		'plugin:prettier/recommended',
-	],
+	extends: ['google', 'prettier', 'plugin:prettier/recommended'],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaVersion: 'latest',
