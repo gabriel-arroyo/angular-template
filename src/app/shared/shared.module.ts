@@ -5,4 +5,5 @@ import { CommonModule } from '@angular/common';
 	declarations: [],
 	imports: [CommonModule],
 })
+/** Módulo a componentes y funciones compartidas en la aplicación */
 export class SharedModule {}

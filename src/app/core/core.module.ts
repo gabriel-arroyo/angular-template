@@ -5,4 +5,5 @@ import { CommonModule } from '@angular/common';
 	declarations: [],
 	imports: [CommonModule],
 })
+/** Módulo de funciones globales */
 export class CoreModule {}

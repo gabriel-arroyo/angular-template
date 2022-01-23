@@ -5,4 +5,5 @@ import { CommonModule } from '@angular/common';
 	declarations: [],
 	imports: [CommonModule],
 })
+/** Módulo de importaci+on de datos */
 export class DataModule {}

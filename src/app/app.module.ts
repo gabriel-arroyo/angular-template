@@ -21,4 +21,5 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
 	providers: [],
 	bootstrap: [AppComponent],
 })
+/** Módulo padre */
 export class AppModule {}
